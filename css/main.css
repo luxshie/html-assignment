@@ -1,0 +1,29 @@
+/* My awesome CSS! */ 
+
+body {
+    background-color: blanchedalmond;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+header, footer {
+    background-color: floralwhite;   
+}
+
+.site-title {
+    color:darkgreen;
+}
+
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+}
+
+.hobbies {
+    list-style-type: square;
+}
+.hobbies li:nth-child(odd) {
+     background-color:beige;
+}
+.no-bullets {
+    list-style-type: none ; /* Remove bullets */
+}
